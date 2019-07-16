@@ -1,0 +1,14 @@
+[
+  {
+    "nombres": "Ana Gomez",
+    "curso": "Angular"
+  },
+  {
+    "nombres": "Jorge Chavez",
+    "curso": "Node"
+  },
+  {
+    "nombres": "German Sabala",
+    "curso": "React"
+  }
+]

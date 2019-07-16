@@ -1,0 +1,55 @@
+<% include header %>
+<div class="container">
+  <div class="row">
+    <!--FORM-->
+    <div class="col-md-5">
+      <div class="card">
+        <div class="card-body">
+          <form action="/insertar" method="post">
+            <div class="form-group">
+              <input class="form-control" type="text" name="ci" placeholder="CI">
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="nombres" placeholder="Nombres">
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="apellidos" placeholder="Apellidos">
+            </div>
+            <button class="btn btn-primary btn-block" type="submit">
+              Insertar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th>CI</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <% alumnos.forEach((alumno)=>{ %> <tr>
+            <td><%= alumno.ci %></td>
+            <td><%= alumno.nombres %></td>
+            <td><%= alumno.apellidos %></td>
+            <td>
+              <a href="/editar/<%= alumno.ci %>" class="btn btn-success">
+                <i class="fas fa-edit"></i>
+              </a>
+              <a href="/eliminar/<%= alumno.ci %>" onclick="return confirm('Eliminar alumno ?')" class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i>
+              </a>
+            </td>
+          </tr>
+          <%})%>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<% include footer %>

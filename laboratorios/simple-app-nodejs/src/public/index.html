@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Document</title>
+  <style>
+    body {
+      background: #232526;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #414345, #232526);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #414345, #232526);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      color: #ccc;
+    }
+
+    .mbg {
+      border: 1px solid #000000;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="text-align: center">public web cognos</h1>
+  <div class="nb bg-dark">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mbg">
+        <div class="mt-4 mb-4">
+          <form class="p-2">
+            <div class="form-group">
+              <label for="ciinput">CI</label>
+              <input type="number" class="form-control" id="ciinput" aria-describedby="cihelp" placeholder="CI">
+              <small id="cihelp" class="form-text text-muted">We'll never share your ci with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="nameinput">Nombre</label>
+              <input type="text" class="form-control" id="nameinput" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <label for="apellidoinput">Apellido</label>
+              <input type="text" class="form-control" id="apellidoinput" placeholder="Apellido">
+            </div>
+            <div class="form-group">
+              <label for="cursoinput">Curso</label>
+              <select class="form-control" id="cursoinput">
+                <option>Angular</option>
+                <option>NodeJS</option>
+                <option>React</option>
+                <option>Laravel</option>
+                <option>GGWP</option>
+              </select>
+            </div>
+            <!-- <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> -->
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-6 mbg">
+        <div class="mt-4 mb-4">
+          <form class="p-1">
+            <div class="form-group">
+              <label for="ciinput">CI</label>
+              <input type="number" class="form-control" id="ciinput" aria-describedby="cihelp" placeholder="CI">
+              <small id="cihelp" class="form-text text-muted">We'll never share your ci with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="nameinput">Nombre</label>
+              <input type="text" class="form-control" id="nameinput" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <label for="apellidoinput">Apellido</label>
+              <input type="text" class="form-control" id="apellidoinput" placeholder="Apellido">
+            </div>
+            <div class="form-group">
+              <label for="cursoinput">Curso</label>
+              <select class="form-control" id="cursoinput">
+                <option>Angular</option>
+                <option>NodeJS</option>
+                <option>React</option>
+                <option>Laravel</option>
+                <option>GGWP</option>
+              </select>
+            </div>
+            <!-- <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

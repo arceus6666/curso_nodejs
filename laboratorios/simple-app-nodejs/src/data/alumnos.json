@@ -1,0 +1,14 @@
+[
+  {
+    "ci": 6730116,
+    "nombre": "Daniel",
+    "apellido": "Mendoza",
+    "curso": "NodeJS"
+  },
+  {
+    "ci": 123,
+    "nombre": "Ana",
+    "apellido": "Gomez",
+    "curso": "NodeJS"
+  }
+]

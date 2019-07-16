@@ -1,0 +1,232 @@
+<% include header %>
+<div class="container">
+  <div class="row">
+    <!--FORM-->
+    <div class="col-md-12">
+      <div class="card bg-secondary">
+        <div class="card-header">
+          <b>¡Gracias!</b> Por formar parte de nuestra familia y colaborarnos con esta evaluaión inicial, el cual nos
+          permitirá mejorar el esarrollo y culminación de la misma.
+        </div>
+        <div class="card-body">
+          <form action="/evaluacion-cognos/insertar" method="post">
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" name="curso" placeholder="Curso">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" name="instructor" placeholder="Instructor">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">1. ¿ El avance del curso va ?</label>
+              </div>
+              <div class="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta1" id="inlineRadio11" value="Muy Rapido">
+                  <label class="form-check-label" for="inlineRadio11">Muy Rápido</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta1" id="inlineRadio12" value="Rapido">
+                  <label class="form-check-label" for="inlineRadio12">Rápido</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta1" id="inlineRadio13" value="Normal">
+                  <label class="form-check-label" for="inlineRadio13">Normal</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta1" id="inlineRadio14" value="Lento">
+                  <label class="form-check-label" for="inlineRadio14">Lento</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">2. ¿ La Pedagogía de Facilitador es... ?</label>
+              </div>
+              <div class="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta2" id="inlineRadio21" value="Muy Bueno">
+                  <label class="form-check-label" for="inlineRadio21">Muy Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta2" id="inlineRadio22" value="Bueno">
+                  <label class="form-check-label" for="inlineRadio22">Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta2" id="inlineRadio23" value="Regular">
+                  <label class="form-check-label" for="inlineRadio23">Regular</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta2" id="inlineRadio24" value="Malo">
+                  <label class="form-check-label" for="inlineRadio24">Malo</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">3. ¿ La relación entre la Teoría y Práctica es... ?</label>
+              </div>
+              <div class="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta3" id="inlineRadio31" value="Muy Bueno">
+                  <label class="form-check-label" for="inlineRadio31">Muy Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta3" id="inlineRadio32" value="Bueno">
+                  <label class="form-check-label" for="inlineRadio32">Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta3" id="inlineRadio33" value="Regular">
+                  <label class="form-check-label" for="inlineRadio33">Regular</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta3" id="inlineRadio34" value="Malo">
+                  <label class="form-check-label" for="inlineRadio34">Malo</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">4. ¿ La disposición del Facilitador para disipar sus dudas es... ?</label>
+              </div>
+              <div class="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta4" id="inlineRadio41" value="Muy Bueno">
+                  <label class="form-check-label" for="inlineRadio41">Muy Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta4" id="inlineRadio42" value="Bueno">
+                  <label class="form-check-label" for="inlineRadio42">Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta4" id="inlineRadio43" value="Regular">
+                  <label class="form-check-label" for="inlineRadio43">Regular</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta4" id="inlineRadio44" value="Malo">
+                  <label class="form-check-label" for="inlineRadio44">Malo</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">5. ¿ El Ambiente de capacitación y la Atención del centro es... ?</label>
+              </div>
+              <div class="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta5" id="inlineRadio51" value="Muy Bueno">
+                  <label class="form-check-label" for="inlineRadio51">Muy Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta5" id="inlineRadio52" value="Bueno">
+                  <label class="form-check-label" for="inlineRadio52">Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta5" id="inlineRadio53" value="Regular">
+                  <label class="form-check-label" for="inlineRadio53">Regular</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta5" id="inlineRadio54" value="Malo">
+                  <label class="form-check-label" for="inlineRadio54">Malo</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">6. ¿ Cómo califica el aporte del material de estudio, hasta el momento
+                  ?</label>
+              </div>
+              <div class="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta6" id="inlineRadio61" value="Muy Bueno">
+                  <label class="form-check-label" for="inlineRadio61">Muy Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta6" id="inlineRadio62" value="Bueno">
+                  <label class="form-check-label" for="inlineRadio62">Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta6" id="inlineRadio63" value="Regular">
+                  <label class="form-check-label" for="inlineRadio63">Regular</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta6" id="inlineRadio64" value="Malo">
+                  <label class="form-check-label" for="inlineRadio64">Malo</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">7. ¿ Cómo califica el equipo técnico y la infraestructua del centro
+                  ?</label>
+              </div>
+              <div class="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta7" id="inlineRadio71" value="Muy Bueno">
+                  <label class="form-check-label" for="inlineRadio71">Muy Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta7" id="inlineRadio72" value="Bueno">
+                  <label class="form-check-label" for="inlineRadio72">Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta7" id="inlineRadio73" value="Regular">
+                  <label class="form-check-label" for="inlineRadio73">Regular</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta7" id="inlineRadio74" value="Malo">
+                  <label class="form-check-label" for="inlineRadio74">Malo</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">8. ¿ La utilización del Aula Virtual como Herramienta de Apoyo es...
+                  ?</label>
+              </div>
+              <div class="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta8" id="inlineRadio81" value="Muy Bueno">
+                  <label class="form-check-label" for="inlineRadio81">Muy Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta8" id="inlineRadio82" value="Bueno">
+                  <label class="form-check-label" for="inlineRadio82">Bueno</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta8" id="inlineRadio83" value="Regular">
+                  <label class="form-check-label" for="inlineRadio83">Regular</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="pregunta8" id="inlineRadio84" value="Malo">
+                  <label class="form-check-label" for="inlineRadio84">Malo</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <label class="from-control">Comentarios generales o Sugerencias</label>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" name="comentario">
+              </div>
+            </div>
+            <!-- fin -->
+            <button class="btn btn-light btn-block" type="submit"
+              onclick="confirm('Enviar evaluación?')?alert('Evaluación enviada'): 0">
+              Insertar
+            </button>
+          </form>
+        </div>
+        <div class="card-footer">
+          Tu opinión nos interesa y será tomada en cuenta .....<br />
+          <span class="card-text text-right">Dirección Académica</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<% include footer %>

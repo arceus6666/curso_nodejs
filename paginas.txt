@@ -1,0 +1,3 @@
+https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html
+https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON/stringify
+https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON/parse

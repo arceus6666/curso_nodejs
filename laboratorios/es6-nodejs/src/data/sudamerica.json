@@ -1,0 +1,221 @@
+[
+  {
+    "nombre": "Argentina",
+    "poblacion": 43590400,
+    "capital": "Buenos Aires",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      },
+      {
+        "iso639_1": "gn",
+        "iso639_2": "grn",
+        "name": "Guaraní",
+        "nativeName": "Avañe'ẽ"
+      }
+    ]
+  },
+  {
+    "nombre": "Bolivia (Plurinational State of)",
+    "poblacion": 10985059,
+    "capital": "Sucre",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      },
+      {
+        "iso639_1": "ay",
+        "iso639_2": "aym",
+        "name": "Aymara",
+        "nativeName": "aymar aru"
+      },
+      {
+        "iso639_1": "qu",
+        "iso639_2": "que",
+        "name": "Quechua",
+        "nativeName": "Runa Simi"
+      }
+    ]
+  },
+  {
+    "nombre": "Brazil",
+    "poblacion": 206135893,
+    "capital": "Brasília",
+    "lenguajes": [
+      {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+      }
+    ]
+  },
+  {
+    "nombre": "Chile",
+    "poblacion": 18191900,
+    "capital": "Santiago",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ]
+  },
+  {
+    "nombre": "Colombia",
+    "poblacion": 48759958,
+    "capital": "Bogotá",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ]
+  },
+  {
+    "nombre": "Ecuador",
+    "poblacion": 16545799,
+    "capital": "Quito",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ]
+  },
+  {
+    "nombre": "Falkland Islands (Malvinas)",
+    "poblacion": 2563,
+    "capital": "Stanley",
+    "lenguajes": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ]
+  },
+  {
+    "nombre": "French Guiana",
+    "poblacion": 254541,
+    "capital": "Cayenne",
+    "lenguajes": [
+      {
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "name": "French",
+        "nativeName": "français"
+      }
+    ]
+  },
+  {
+    "nombre": "Guyana",
+    "poblacion": 746900,
+    "capital": "Georgetown",
+    "lenguajes": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ]
+  },
+  {
+    "nombre": "Paraguay",
+    "poblacion": 6854536,
+    "capital": "Asunción",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      },
+      {
+        "iso639_1": "gn",
+        "iso639_2": "grn",
+        "name": "Guaraní",
+        "nativeName": "Avañe'ẽ"
+      }
+    ]
+  },
+  {
+    "nombre": "Peru",
+    "poblacion": 31488700,
+    "capital": "Lima",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ]
+  },
+  {
+    "nombre": "South Georgia and the South Sandwich Islands",
+    "poblacion": 30,
+    "capital": "King Edward Point",
+    "lenguajes": [
+      {
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+      }
+    ]
+  },
+  {
+    "nombre": "Suriname",
+    "poblacion": 541638,
+    "capital": "Paramaribo",
+    "lenguajes": [
+      {
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "name": "Dutch",
+        "nativeName": "Nederlands"
+      }
+    ]
+  },
+  {
+    "nombre": "Uruguay",
+    "poblacion": 3480222,
+    "capital": "Montevideo",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ]
+  },
+  {
+    "nombre": "Venezuela (Bolivarian Republic of)",
+    "poblacion": 31028700,
+    "capital": "Caracas",
+    "lenguajes": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ]
+  }
+]
